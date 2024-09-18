@@ -86,7 +86,7 @@
     background-color: #0070f3;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 1px;
     cursor: pointer;
   }
   
@@ -119,3 +119,25 @@
     left: 0;
   }
   
+  .smallButton {
+    font-size: 0.75rem; /* Ajusta o tamanho da fonte */
+    padding: 0.25rem 0.5rem; /* Ajusta o padding */
+    margin: 0 0.25rem; /* Adiciona margem para espaçamento */
+    /* Outros estilos para deixar o botão menor */
+  }
+
+  .taskItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem; /* Adiciona um pouco de espaço abaixo de cada item */
+  }
+  
+  .taskTitle {
+    margin-right: 1rem; /* Ajusta o espaço entre o título da tarefa e os botões */
+    flex: 1; /* Faz com que o título ocupe o espaço disponível */
+  }
+
+
+  .addTaskButton {
+    margin-bottom: 1rem; /* Ajusta o espaço abaixo do botão "Adicionar Tarefa" */
+  }
